@@ -21,14 +21,11 @@ class Animal:
         print(self._cords)
 
     def attack(self):
-        if self._DEGREE_OF_DANGER == 0:
-            # return ("This animal is not dangerous.")
+        if self._DEGREE_OF_DANGER == 0:           
             print(f"This animal is not dangerous. {self._DEGREE_OF_DANGER}")
-        elif self._DEGREE_OF_DANGER == 3:
-            # return ('This animal is somewhat dangerous.')
+        elif self._DEGREE_OF_DANGER == 3:          
             print(f'This animal is somewhat dangerous. {self._DEGREE_OF_DANGER}')
-        elif self._DEGREE_OF_DANGER == 8:
-            # return ('Watch out! This animal is highly dangerous!')
+        elif self._DEGREE_OF_DANGER == 8:         
             print(f'Watch out! This animal is highly dangerous! {self._DEGREE_OF_DANGER}')
 
     def speak(self):
