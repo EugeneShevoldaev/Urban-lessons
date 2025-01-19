@@ -61,13 +61,3 @@ if __name__ == '__main__':
 #     shop.add_product()  # вызываем метод для добавления продукта
 #     shop.get_product()
 
-# вывод в консоль
-'''
-продукт Potato успешно добавлен
-продукт Spaghetti успешно добавлен
-продукт Potato уже существует, не добавлен
-Potato, 50.5, Vegetables
-Spaghetti, 3.4, Groceries
-
-None
-'''
